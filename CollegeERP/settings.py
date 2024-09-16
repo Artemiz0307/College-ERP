@@ -33,6 +33,7 @@ AUTH_USER_MODEL = 'info.User'
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'info.apps.InfoConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
     'djoser',
     'rest_framework.authtoken',
     'apis',
